@@ -28,7 +28,7 @@ div
         img(src='~/assets/img/shinnopo_chronicle.png', alt=schoop)
       .portfolio_explain
         .portfolio_title
-          a.title(href='http://192.168.1.7:8000/') shinnopo chronicle
+          a.title(href='https://shinnopo.me/') shinnopo chronicle
         .portfolio_dev.info
           p.dev ソロプロジェクト
         .portfolio_ex.info
