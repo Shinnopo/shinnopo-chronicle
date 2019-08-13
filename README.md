@@ -1,4 +1,4 @@
-# shinnopo_nuxt_portfolio
+# shinnopo chornicle
 
 > MyPortfolioSite
 
