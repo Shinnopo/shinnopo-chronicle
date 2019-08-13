@@ -33,7 +33,7 @@ div
         dl
           .profile
             dt age0
-            dd 東京生まれ。
+            dd 東京に生まれる。
           .profile
             dt age10
             dd HTMLでホームページを作る。
@@ -48,7 +48,7 @@ div
             dd アクセンチュアの社員らとSNSアプリを開発する。
           .profile
             dt age19
-            dd 株式会社Dapsでインターンをする。
+            dd Daps,incでインターン。
     section.skils
       h2.skil_title Skils
       // Container
@@ -65,7 +65,7 @@ div
                 path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
                 path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
             svg(viewBox='-10 -10 220 220')
-              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='534.65')
+              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='503.2')
           // Item
           li(data-name='CSS/SCSS Skill', data-percent='75%')
             svg(viewBox='-10 -10 220 220')
@@ -91,7 +91,7 @@ div
             svg(viewBox='-10 -10 220 220')
               path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='566.1')
           // Item
-          li(data-name='React Skill', data-percent='85%')
+          li(data-name='React Skill', data-percent='80%')
             svg(viewBox='-10 -10 220 220')
               g(fill='none', stroke-width='6', transform='translate(100,100)')
                 path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
@@ -101,9 +101,9 @@ div
                 path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
                 path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
             svg(viewBox='-10 -10 220 220')
-              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='534.65')
+              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='503.2')
               // Item
-          li(data-name='Vue.js(Nuxt.js) Skill', data-percent='85%')
+          li(data-name='Vue.js(Nuxt.js) Skill', data-percent='75%')
             svg(viewBox='-10 -10 220 220')
               g(fill='none', stroke-width='6', transform='translate(100,100)')
                 path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
@@ -113,9 +113,9 @@ div
                 path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
                 path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
             svg(viewBox='-10 -10 220 220')
-              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='534.65')
+              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='471.75')
           // Item
-          li(data-name='jQuery Skill', data-percent='85%')
+          li(data-name='jQuery Skill', data-percent='80%')
             svg(viewBox='-10 -10 220 220')
               g(fill='none', stroke-width='6', transform='translate(100,100)')
                 path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
@@ -125,9 +125,9 @@ div
                 path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
                 path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
             svg(viewBox='-10 -10 220 220')
-              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='534.65')
+              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='503.2')
           // Item
-          li(data-name='Python Skill', data-percent='90%')
+          li(data-name='Python Skill', data-percent='70%')
             svg(viewBox='-10 -10 220 220')
               g(fill='none', stroke-width='6', transform='translate(100,100)')
                 path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
@@ -137,7 +137,7 @@ div
                 path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
                 path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
             svg(viewBox='-10 -10 220 220')
-              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='566.1')
+              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='440.3')
           // Item
           li(data-name='Ruby (Ruby on Rails) Skill', data-percent='65%')
             svg(viewBox='-10 -10 220 220')
@@ -175,7 +175,7 @@ div
             svg(viewBox='-10 -10 220 220')
               path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='251.6')
           // Item
-          li(data-name='Swift Skill', data-percent='60%')
+          li(data-name='Swift Skill', data-percent='50%')
             svg(viewBox='-10 -10 220 220')
               g(fill='none', stroke-width='6', transform='translate(100,100)')
                 path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
@@ -185,7 +185,7 @@ div
                 path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
                 path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
             svg(viewBox='-10 -10 220 220')
-              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='377.4')
+              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='314.5')
           // Item
           li(data-name='Vagrant Skill', data-percent='80%')
             svg(viewBox='-10 -10 220 220')
@@ -211,7 +211,31 @@ div
             svg(viewBox='-10 -10 220 220')
               path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='503.2')
           // Item
+          li(data-name='MySQL Skill', data-percent='60%')
+            svg(viewBox='-10 -10 220 220')
+              g(fill='none', stroke-width='6', transform='translate(100,100)')
+                path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
+                path(d='M 86.6,-50 A 100,100 0 0,1 86.6,50', stroke='url(#cl2)')
+                path(d='M 86.6,50 A 100,100 0 0,1 0,100', stroke='url(#cl3)')
+                path(d='M 0,100 A 100,100 0 0,1 -86.6,50', stroke='url(#cl4)')
+                path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
+                path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
+            svg(viewBox='-10 -10 220 220')
+              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='377.4')
+          // Item
           li(data-name='AWS Skill', data-percent='65%')
+            svg(viewBox='-10 -10 220 220')
+              g(fill='none', stroke-width='6', transform='translate(100,100)')
+                path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
+                path(d='M 86.6,-50 A 100,100 0 0,1 86.6,50', stroke='url(#cl2)')
+                path(d='M 86.6,50 A 100,100 0 0,1 0,100', stroke='url(#cl3)')
+                path(d='M 0,100 A 100,100 0 0,1 -86.6,50', stroke='url(#cl4)')
+                path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
+                path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
+            svg(viewBox='-10 -10 220 220')
+              path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='408.85')
+          // Item
+          li(data-name='GCP Skill', data-percent='65%')
             svg(viewBox='-10 -10 220 220')
               g(fill='none', stroke-width='6', transform='translate(100,100)')
                 path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
