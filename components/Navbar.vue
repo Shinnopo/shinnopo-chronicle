@@ -10,7 +10,7 @@
     </div><!-- navbar-brand END -->
     <div class="navbar-menu" id="navMenu" :class="{'is-active': $store.state.isMenuActive}">
       <div class="navbar-end">
-        <a class="header_link" href="https://shinnopo-portfolio.appspot.com/biography">Biography</a>
+        <a class="header_link" href="https://shinnopo.me/biography">Biography</a>
         <nuxt-link class="header_link" to="/portfolio">Portfolio</nuxt-link>
         <nuxt-link class="header_link" to="/certification">Certification</nuxt-link>
         <nuxt-link class="header_link" to="/culture">Culture</nuxt-link>
