@@ -48,7 +48,7 @@ div
             dd アクセンチュアの社員らとSNSアプリを開発する。
           .profile
             dt age19
-            dd Daps,incでインターン。
+            dd SoftBank Roboticsでインターン。
     section.skils
       h2.skil_title Skils
       // Container
@@ -250,23 +250,23 @@ div
         svg(width='0', height='0')
           defs
             lineargradient#cl1(gradientUnits='objectBoundingBox', x1='0', y1='0', x2='1', y2='1')
-              stop(stop-color='#618099')
-              stop(offset='100%', stop-color='#8e6677')
+              stop(stop-color='#0cdce0')
+              stop(offset='100%', stop-color='#0a84ff')
             lineargradient#cl2(gradientUnits='objectBoundingBox', x1='0', y1='0', x2='0', y2='1')
-              stop(stop-color='#8e6677')
-              stop(offset='100%', stop-color='#9b5e67')
+              stop(stop-color='#0a84ff')
+              stop(offset='100%', stop-color='#0a0aff')
             lineargradient#cl3(gradientUnits='objectBoundingBox', x1='1', y1='0', x2='0', y2='1')
-              stop(stop-color='#9b5e67')
-              stop(offset='100%', stop-color='#9c787a')
+              stop(stop-color='#0a0aff')
+              stop(offset='100%', stop-color='#7abcff')
             lineargradient#cl4(gradientUnits='objectBoundingBox', x1='1', y1='1', x2='0', y2='0')
-              stop(stop-color='#9c787a')
-              stop(offset='100%', stop-color='#817a94')
+              stop(stop-color='#7abcff')
+              stop(offset='100%', stop-color='#0a84ff')
             lineargradient#cl5(gradientUnits='objectBoundingBox', x1='0', y1='1', x2='0', y2='0')
-              stop(stop-color='#817a94')
-              stop(offset='100%', stop-color='#498a98')
+              stop(stop-color='#0a84ff')
+              stop(offset='100%', stop-color='#0a0aff')
             lineargradient#cl6(gradientUnits='objectBoundingBox', x1='0', y1='1', x2='1', y2='0')
-              stop(stop-color='#498a98')
-              stop(offset='100%', stop-color='#618099')
+              stop(stop-color='#0a0aff')
+              stop(offset='100%', stop-color='#0cdce0')
 </template>
 
 <script>
@@ -301,40 +301,41 @@ export default {
       width: 100vw;
       height: 200px;
       margin: 0 auto;
-      background-color: #333;
+      background-color: #111;
+      border: solid 1px #0cdce0;
     }
 
   .text-copy {
       fill: none;
       stroke: white;
       stroke-dasharray: 6% 29%;
-      stroke-width: 5px;
+      stroke-width: 1.5px;
       stroke-dashoffset: 0%;
       animation: stroke-offset 5.5s infinite linear;
   }
 
   .text-copy:nth-child(1){
-      stroke: #3399FF;
+      stroke: #0cdce0;
       animation-delay: -1;
   }
 
   .text-copy:nth-child(2){
-      stroke: #000099;
+      stroke: #0cdce0;
       animation-delay: -2s;
   }
 
   .text-copy:nth-child(3){
-      stroke: #000000;
+      stroke: #0cdce0;
       animation-delay: -3s;
   }
 
   .text-copy:nth-child(4){
-      stroke: #00FF7F;
+      stroke: #0cdce0;
       animation-delay: -4s;
   }
 
   .text-copy:nth-child(5){
-      stroke: #3CB371;
+      stroke: #0cdce0;
       animation-delay: -5s;
   }
 
@@ -385,9 +386,9 @@ export default {
       line-height: 1;
       padding: 6.4px 0;
       font-family: '源ノ角ゴシック', 'Montserrat', sans-serif;
-      font-weight: 300;
       font-size: 2.5rem;
-      color: #3CB371;
+      font-weight: 1.5px;
+      color: #0cdce0;
       display: flex;
       justify-content: center;
   }
@@ -482,16 +483,16 @@ export default {
         display: inline-block;
         position: relative;
         text-align: center;
-        color: #93A2AC;
+        color: #0cdce0;
         font-family: Lato;
-        font-weight:100;
+        font-weight:1.5px;
         margin: 2rem;
         &:before {
             content: attr(data-name);
             position: absolute;
             width: 100%;
             bottom: -2rem;
-            font-weight:400;
+            font-weight:1.5px;
             font-family: sans-serif;
         }
         &:after {
@@ -518,8 +519,8 @@ export default {
             fill: none;
             stroke-width: 25;
             stroke-dasharray: 629;
-            stroke: #222;
-            opacity:.9;
+            stroke: #111;
+            //opacity:.9;
             animation: load 10s;
         }
     }
