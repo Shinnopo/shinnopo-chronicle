@@ -46,40 +46,40 @@ svg {
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
-    background-color: #333;
+    background-color: #111;
   }
 
 .text-copy {
     fill: none;
     stroke: white;
     stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
+    stroke-width: 1.5px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 5.5s infinite linear;
 }
 
 .text-copy:nth-child(1){
-    stroke: #3399FF;
+    stroke: #0cdce0;
     animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-    stroke: #000099;
+    stroke: #0cdce0;
     animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-    stroke: #000000;
+    stroke: #0cdce0;
     animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-    stroke: #00FF7F;
+    stroke: #0cdce0;
     animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-    stroke: #3CB371;
+    stroke: #0cdce0;
     animation-delay: -5s;
 }
 
