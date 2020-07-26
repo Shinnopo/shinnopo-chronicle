@@ -302,7 +302,6 @@ export default {
       height: 200px;
       margin: 0 auto;
       background-color: #111;
-      border: solid 1px #0cdce0;
     }
 
   .text-copy {
