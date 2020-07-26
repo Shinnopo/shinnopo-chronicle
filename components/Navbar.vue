@@ -34,15 +34,16 @@ export default {
 
 <style lang="scss">
 .navbar {
-  background:  #222;
+  background:  #111;
   position: fixed;
   justify-content: space-between;
   width: 100%;
   z-index: 9999;
+  opacity: 0.7;
 }
 
 .navbar-menu {
-  background: #222;
+  background: #111;
 }
 
 .navbar-item {

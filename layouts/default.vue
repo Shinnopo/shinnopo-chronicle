@@ -40,20 +40,20 @@ export default {
 html {
   height: 100%;
   width: 100%;
-  background-color: #222;
+  background-color: #111;
 }
 
 html, body {
   height: 100%;
-  font-weight: 800;
+  font-weight: 1.5px;
   margin: 0;
 }
 
 body{
-   background-color: #222;
+   background-color: #111;
    margin: 0;
    font-family: 'Montserrat',sans-serif;
-   color: #999999;
+   color: #fff;
  }
 
 a.header_link {
@@ -66,7 +66,8 @@ a.header_link {
 }
 
 a.header_link:hover {
-  background-color: #999999;
+  color: #0cdce0;
+  background-color: rgba(17, 17, 17, 0.699);
 }
 
 ul {
@@ -74,7 +75,7 @@ ul {
 }
 
 .site-header{
-  background:  #222;
+  background:  #111;
   display: flex;
   position: fixed;
   justify-content: space-between;
@@ -96,13 +97,13 @@ ul {
 } */
 
 .gnav__menu__item a{
-  color: #fff;
+  color: #0cdce0;
   text-decoration: none;
   height: 20;
 }
 
 .footer {
-  background-color: #222;
+  background-color: #111;
   padding: 32px 24px;
   font-weight: 300;
 }
