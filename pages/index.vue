@@ -27,7 +27,6 @@ a {
   display: block;
   padding: 20px 15px;
   text-align: center;
-  font-weight: bold;
   text-decoration: none;
   color: #fff;
 }
@@ -59,27 +58,27 @@ svg {
 }
 
 .text-copy:nth-child(1){
-    stroke: #0cdce0;
+    stroke: #0cdce077;
     animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-    stroke: #0cdce0;
+    stroke: #0cdce077;
     animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-    stroke: #0cdce0;
+    stroke: #0cdce077;
     animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-    stroke: #0cdce0;
+    stroke: #0cdce077;
     animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-    stroke: #0cdce0;
+    stroke: #0cdce077;
     animation-delay: -5s;
 }
 
@@ -92,7 +91,6 @@ svg {
     display: block;
     padding: 20px 15px;
     text-align: center;
-    font-weight: bold;
     text-decoration: none;
     color: #fff;
   }
