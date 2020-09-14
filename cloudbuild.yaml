@@ -5,5 +5,3 @@ steps:
 
 - name: gcr.io/cloud-builders/gsutil
   args: ['rm', '-r', 'gs://asia.artifacts.shinnopo-portfolio.appspot.com/*']
-- name: gcr.io/cloud-builders/gsutil
-  args: ['rb', 'gs://asia.artifacts.shinnopo-portfolio.appspot.com']
