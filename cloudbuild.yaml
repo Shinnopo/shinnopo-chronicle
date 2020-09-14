@@ -1,8 +1,6 @@
 steps:
 - name: gcr.io/cloud-builders/gcloud
-  args: ['app', 'deploy', '--version', 'dev', 'app.yaml', 'cron.yaml']
-- name: gcr.io/cloud-builders/gcloud
-  args: ['app', 'deploy', '--version', 'dev', 'backend.yaml']
+  args: ['app', 'deploy', '--version', 'dev', 'app.yaml']
   waitFor: ['-']
 
 - name: gcr.io/cloud-builders/gsutil
