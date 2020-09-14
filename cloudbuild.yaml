@@ -1,0 +1,11 @@
+steps:
+- name: gcr.io/cloud-builders/gcloud
+  args: ['app', 'deploy', '--version', 'dev', 'app.yaml', 'cron.yaml']
+- name: gcr.io/cloud-builders/gcloud
+  args: ['app', 'deploy', '--version', 'dev', 'backend.yaml']
+  waitFor: ['-']
+
+- name: gcr.io/cloud-builders/gsutil
+  args: ['rm', '-r', 'gs://asia.artifacts.{shinnopo-portfolio}.appspot.com/*']
+- name: gcr.io/cloud-builders/gsutil
+  args: ['rb', 'gs://asia.artifacts.{shinnopo-portfolio}.appspot.com']
