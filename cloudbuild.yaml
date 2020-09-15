@@ -1,7 +1,7 @@
 steps:
-- name: gcr.io/cloud-builders/gcloud
+- name: 'gcr.io/cloud-builders/gcloud'
   args: ['app', 'deploy', '--version', 'dev', 'app.yaml']
   waitFor: ['-']
-
+  timeout: '1600s'
 - name: gcr.io/cloud-builders/gsutil
   args: ['rm', '-r', 'gs://asia.artifacts.shinnopo-portfolio.appspot.com/*']
