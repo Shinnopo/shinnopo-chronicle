@@ -12,12 +12,20 @@ div
         use.text-copy(xlink:href='#s-text')
         use.text-copy(xlink:href='#s-text')
         use.text-copy(xlink:href='#s-text')
+  no-ssr
+    particles
 </template>
 
 <script>
+import particles from '~/components/particles'
+
 export default {
   fetch ({store}) {
     store.commit('resetMenu')
+  },
+  components: {
+    particles
+    
   }
 }
 </script>

@@ -1,14 +1,6 @@
 <template>
   <div>
     <header class="site-header">
-      <!-- <nav class="gnav">
-        <ul class="gnav__menu">
-          <li class="gnav__menu__item"><a class="header_link" href="http://192.168.1.2:8000/biography">Biography</a></li>
-          <li class="gnav__menu__item"><nuxt-link class="header_link" to="/portfolio">Portfolio</nuxt-link></li>
-          <li class="gnav__menu__item"><nuxt-link class="header_link" to="/certification">Certification</nuxt-link></li>
-          <li class="gnav__menu__item"><nuxt-link class="header_link" to="/culture">Culture</nuxt-link></li>
-        </ul>
-      </nav> -->
       <navbar/>
     </header>
     <main>

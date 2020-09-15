@@ -31,6 +31,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~plugins/particles.js',
+    { src: '~/plugins/particles.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js modules
@@ -53,6 +55,6 @@ export default {
   */
   build: {
     extend(config, ctx) {
-    }
+    },
   }
 }
